@@ -358,6 +358,15 @@ padding: 10px !important;
         font-size: 9px;
     }
 }
+@media (max-width:360px){
+    .textoSi{
+        font-size: 11px !important;
+    }
+    .manito, .manitoNegativa{
+        font-size: 68px !important;
+        width: 32% !important;
+    }
+}
 
 .Marvel{
     font-size: 33px !important;

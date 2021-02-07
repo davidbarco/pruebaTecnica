@@ -25,6 +25,7 @@ localStorage.setItem("porcentaje1", "50")
 localStorage.setItem("porcentaje2", "50")
 /* funcion para votar en positivo */
 like.addEventListener("click", function(){
+   
     principal.classList.add("cerrarP");
     votoPositivo.classList.remove("positivo");
     
@@ -39,8 +40,8 @@ like.addEventListener("click", function(){
     let porcentajeBarra1 = barra1.style.width = valor1 + "%";
     let porcentajeBarra2 = barra2.style.width = valor2 + "%";
     
-    localStorage.setItem("porcentaje1", valor1)
-    localStorage.setItem("porcentaje2", valor2)
+    localStorage.setItem("porcentaje1", porcentajeBarra1)
+    localStorage.setItem("porcentaje2", porcentajeBarra2)
     
     porcentaje1.innerHTML= porcentajeBarra1;
     porcentaje2.innerHTML= porcentajeBarra2;
