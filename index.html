@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap --> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4cb597c7f1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" href="styles.css">
+     <title>Proyecto Test Héroes</title>
+</head>
+<body>
+    <header>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md-6 col-lg-6 col-xl-6 logo">
+                   <img src="assets/img/Sin_título-removebg-preview.png" alt="ironman">
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-6 col-xl-6 menu">
+                <ul >
+                    <li><a href="#">Heroes Anteriores</a></li>
+                    <li><a href="#">¿Cómo Funciona?</a></li>
+                    <li><a href="#">Iniciar sesión</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row cajita">
+            <div id="principal" class="caja col-8 col-sm-7 col-md-6 col-lg-6 col-xl-6 ">
+                <p>Dinos tu opinion sobre</p>
+                <h2 class="titulo">Ironman?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint possimus corporis tempore architecto alias provident sed ex exercitationem aperiam enim?</p>
+                <p><a href="#"><i class="fab fa-wikipedia-w wiki"></i>Mas Informacion</a></p>
+                <h3><strong> ¿Cuál es tu voto?</strong></h3>
+                <div class="botones">
+                    <div id="like" class="Ylike"><i class="far fa-thumbs-up like"></i></div>
+                    <div id="noLike" class="nolike"><i class="far fa-thumbs-down dislike"></i></div>
+                </div>
+            </div>
+            <!-- voto positivo -->
+            <div id="votoPositivo" class="caja col-8 col-sm-7 col-md-6 col-lg-6 col-xl-6 positivo">
+                <p class="Marvel">Marvel - <strong style="color: white;"> Ironman</strong></p>
+                <div class="votoPositivos">
+                    <i class="far fa-thumbs-up manito"></i>
+                    <p class="tuVoto"> Tu voto <br> ha sido Registrado!</p>
+                </div>
+                <p class="textoSi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint possimus corporis tempore architecto alias provident sed ex exercitationem aperiam enim?</p>
+               
+                <div class="volverVotar">
+                    <button id="Volver" class="botonVolver"> << Volver a votar</button>
+                </div>
+            </div>
+
+            <!-- voto negativo -->
+            <div id="votoNegativo" class="caja col-8 col-sm-7 col-md-6 col-lg-6 col-xl-6 negativo">
+                <p class="Marvel">Marvel - <strong style="color: white;"> Ironman</strong></p>
+                <div class="votoPositivos">
+                    <i class="far fa-thumbs-down manitoNegativa"></i>
+                    <p class="tuVoto"> Tu voto <br> ha sido Registrado!</p>
+                </div>
+                <p class="textoSi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint possimus corporis tempore architecto alias provident sed ex exercitationem aperiam enim?</p>
+               
+                <div class="volverVotar">
+                    <button id="VolverN" class="botonVolver"> << Volver a votar</button>
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="row">
+            <div id="barra1" class="mano1 col-xs-6 col-sm-6 voto1 col-md-6 col-lg-6 col-lx-6"><i id="porcentaje1" class="far fa-thumbs-up like">50%</i></div>
+            <div id="barra2" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-lx-6 voto2"><i id="porcentaje2" class="far fa-thumbs-down dislike">50%</i></div>
+        </div>
+
+
+    </header>
+    <section class="section">
+
+        <div class="container">
+
+            <div class="row publicidad">
+                <div class="publicidad1 col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                   Lorem ipsum dolor sit, amet conse
+                </div>
+                <div class="publicidad2 col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, sapiente ur adipisicing elit. Ratione, sapiente
+                 </div>
+                 <div class="cerrar col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <i class="fas fa-times"></i>
+                 </div>
+                 
+            </div>
+    
+            <div class="titulo1">
+                <h2>Super Heroes anteriores</h2>
+            </div>
+
+            <div class="superHeroes">
+                <div class="imagenes foto1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                       <div class="contenido">
+                           <h2 class="nombreHeroe"><i class="far fa-thumbs-up likefoto"></i>Superman</h2>
+                       </div>
+                       <div class="contenido1">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, labore.
+                    </div>
+                    <div class="contenido1">
+                        <div class="detalle">
+                            Ver Detalle
+                        </div>
+                        <div class="date">
+                            1 mes atras en lorem dolor
+                        </div>
+                    </div>
+                       <div class="conteo">
+                            <div class="like1"><i class="far fa-thumbs-up like"></i>50%</div>
+                            <div class="like2"><i class="far fa-thumbs-down dislike"></i>50%</div>
+                       </div>
+                </div>
+
+                <div class="imagenes foto2 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="contenido">
+                        <h2 class="nombreHeroe"><i class="far fa-thumbs-down dislikefoto"></i>Thor</h2>
+                    </div>
+                    <div class="contenido1">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, labore.
+                 </div>
+                 <div class="contenido1">
+                     <div class="detalle">
+                         Ver Detalle
+                     </div>
+                     <div class="date">
+                         1 mes atras en lorem dolor
+                     </div>
+                 </div>
+                    <div class="conteo">
+                         <div class="like1"><i class="far fa-thumbs-up like"></i>50%</div>
+                         <div class="like2"><i class="far fa-thumbs-down dislike"></i>50%</div>
+                    </div>
+             </div>
+            
+            </div>
+            <div class="superHeroes">
+                <div class="imagenes foto3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="contenido">
+                        <h2 class="nombreHeroe"><i class="far fa-thumbs-up likefoto"></i>Spiderman</h2>
+                    </div>
+                    <div class="contenido1">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, labore.
+                 </div>
+                 <div class="contenido1">
+                     <div class="detalle">
+                         Ver Detalle
+                     </div>
+                     <div class="date">
+                         2 meses atras en lorem dolor
+                     </div>
+                 </div>
+                    <div class="conteo">
+                         <div class="like1"><i class="far fa-thumbs-up like"></i>50%</div>
+                         <div class="like2"><i class="far fa-thumbs-down dislike"></i>50%</div>
+                    </div>
+             </div>
+
+             <div class="imagenes foto4 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="contenido">
+                    <h2 class="nombreHeroe"><i class="far fa-thumbs-down dislikefoto"></i>Batman</h2>
+                </div>
+                <div class="contenido1">
+                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, labore.
+             </div>
+             <div class="contenido1">
+                 <div class="detalle">
+                     Ver Detalle
+                 </div>
+                 <div class="date">
+                     3 meses atras en lorem dolor
+                 </div>
+             </div>
+                <div class="conteo">
+                     <div class="like1"><i class="far fa-thumbs-up like"></i>50%</div>
+                     <div class="like2"><i class="far fa-thumbs-down dislike"></i>50%</div>
+                </div>
+         </div>
+            
+            </div>
+           
+        
+
+
+               
+        </div>
+       
+    </section>
+
+    
+        <footer class="footer">
+            <div class="row pie">
+                <div class="columna1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <ul class="terminos">
+                            <li>Terminos y condiciones</li>
+                            <li>Politica de tratamiento de datos</li>
+                            <li>contactenos</li>
+                        </ul>
+                </div>
+                <div class="columna2 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <ul class="redes">
+                        <li>Siguenos</li>
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer> 
+    
+  
+
+    
+
+    
+    
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
