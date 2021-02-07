@@ -2,9 +2,10 @@
     padding-right: 0px !important; padding-left: 0px !important;
     margin-right: 0px !important; margin-left: 0px !important;
     margin: 0; padding: 0; box-sizing: border-box; text-decoration: none !important; list-style: none;
+    
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     font-size: 20px;
     background-color: rgb(255, 255, 255);
 }
@@ -346,6 +347,15 @@ padding: 10px !important;
 @media (max-width:404px){
     .titulo1 h2{
         font-size: 17px;
+    }
+}
+
+@media (max-width:450px){
+    .publicidad1, .publicidad2{
+        font-size: 9px;
+    }
+    .fa-times{
+        font-size: 9px;
     }
 }
 

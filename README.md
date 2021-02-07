@@ -10,3 +10,4 @@ en la parte de javascript:
 llamé a cada elemento a modificar , mediante su ID, luego ejecuté cada funcion para que mediante el evento click realizada una accion, como por ejemplo ocultar y mostrar la ventana correspondiente a cada like,
 para la parte dinamica del conteo de votos en las barras del porcentaje, guardé las variables del width en el localstorage, y luego tomé los valores, para dinamicamente a parte de cada like ajustar el tamaño.
 
+se guarda prueba en repositorio en github rama master.
